@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sistema de gerenciamento de biblioteca"
+version = "0.1.0"
+description = "Um sistema para gerenciar livros em uma biblioteca, incluindo funcionalidades para adicionar, remover e pesquisar livros, bem como para realizar o empréstimo e a devolução de livros."
+authors = ["Alison Almeida <asda.ele@uea.edu.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
